@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #d5c7c2; /* как фон на картинке */
+  color: #3e2c2c;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a89287; /* оттенок ретро */
+  padding: 10px 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  color: #3e2c2c;
+}
+
+.menu a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #fff5ee;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #e6d3cb;
+}
+
+main {
+  padding: 40px;
+}
+
+.hero {
+  font-size: 18px;
+  text-align: center;
+  background-color: #f3e9e4;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.hero4 {
+  font-size: 18px;
+  text-align: center;
+  background-color: #f3e9e4;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 500px;
+}
+.hero img {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+.hero2{
+  font-size: 18px;
+  background-color: #f3e9e4;
+  line-height: 1.6;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #3b2c2b;
+  font-family: 'Georgia', serif;
+}
+
+.hero2 h2,
+.hero2 h3 {
+  color: #5e3d3d;
+  font-family: 'Georgia', serif;
+  margin-bottom: 20px;
+}
+
+/* Нумерованные списки */
+.hero2 ol {
+  counter-reset: section;
+  list-style: none;
+  padding-left: 0;
+}
+
+.hero2 ol li {
+  counter-increment: section;
+  margin-bottom: 25px;
+  background-color: #f8f1ed;
+  padding: 20px;
+  border-left: 6px solid #a89287;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.hero2 ol li:hover {
+  transform: translateY(-2px);
+  background-color: #f0e6e0;
+}
+
+/* Красивые номера */
+.hero2 ol li::before {
+  content: counter(section) ".";
+  font-weight: bold;
+  color: #8c5e54;
+  margin-right: 10px;
+  font-size: 20px;
+  display: inline-block;
+  width: 28px;
+}
+
+/* Вложенные списки (подцели) */
+.hero2 li ul,
+.hero2 li ol {
+  margin-top: 10px;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.hero2 li ul li {
+  list-style-type: disc;
+  margin-bottom: 6px;
+}
+.nzz{
+    text-align: center;
+}
+.hero3{
+  font-size: 18px;
+  background-color: #f3e9e4;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 630px;
+}
+.getoy{
+    width: 433px;
+    height: 723px;
+    border-radius: 8px;
+    position: relative;
+    top: -600px;
+    left: 900px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: #efe3dc;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #a89287;
+  color: #fff5ee;
+  margin-top: 40px;
+}
+.a1 {
+        color: #010101; 
+        text-decoration: none; 
+    }
+    
+.a1:hover {
+        color: #767166; 
+        text-decoration: underline; 
+    }
+    
+.a1:visited {
+        color: #b3b2b1; 
+    }
